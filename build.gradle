@@ -1,0 +1,14 @@
+plugins {
+    id 'groovy'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src', 'vars']
+        }
+        resources {
+            srcDir 'resources'
+        }
+    }
+}
