@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage ('first') {
             steps {
-                scripts {
+                script {
                     echo "project name is: ${globalParam.projectName}"
                 }
             }
