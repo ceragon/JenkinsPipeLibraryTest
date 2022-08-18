@@ -1,2 +1,2 @@
 @groovy.transform.Field
-def projectName="test111"
+def projectName="testv1.0"
