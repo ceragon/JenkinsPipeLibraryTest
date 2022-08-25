@@ -1,5 +1,4 @@
 package io.github.ceragon
-@Library('utils') _
 
 pipeline {
     agent none
